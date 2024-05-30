@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<head>
+  <!-- ... -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script src="app.js"></script>
+</head>
+<body style="background-color: white; color: black;">
+  <h1>Акт приёма-передачи ТС</h1>
+  <label for="city">Введите город:</label>
+  <input type="text" name="city" id="city"><br>
+  <label for="address">Введите адрес/место:</label>
+  <input type="text" name="address" id="address"><br>
+  <label for="mileage">Введите показания одометра:</label>
+  <input type="text" name="mileage" id="mileage"><br>
+  <label for="fuel_card">Топливная карта:</label>
+  <input type="text" name="fuel_card" id="fuel_card"><br>
+  <br>
+  <label for="stepney">Запасное колесо:</label>
+  <input type="checkbox" name="stepney" id="stepney"><br>
+  <label for="medical">Аптечка:</label>
+  <input type="checkbox" name="medical" id="medical"><br>
+  <label for="extinguisher">Огнетушитель:</label>
+  <input type="checkbox" name="extinguisher" id="extinguisher"><br>
+  <label for="emergency_sign">Знак аварийной остановки:</label>
+  <input type="checkbox" name="emergency_sign" id="emergency_sign"><br>
+  <label for="vest">Светоотр. жилет:</label>
+  <input type="checkbox" name="vest" id="vest"><br>
+  <label for="wrench">Балонный ключ:</label>
+  <input type="checkbox" name="wrench" id="wrench"><br>
+  <label for="jack">Домкрат:</label>
+  <input type="checkbox" name="jack" id="jack"><br>
+  <br>
+  <label for="damage">Повреждения на автомобиле:</label>
+  <textarea type="text" name="damage" id="damage"></textarea>
+  <br>
+  <br>
+  <button type="submit" id="send_button" onclick="click_button();">Отправить</button>
+</body>
